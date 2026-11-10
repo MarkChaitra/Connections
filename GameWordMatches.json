@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "words": [
+      "LEADER", "SWORD", "SINKER", "WHISK",
+      "GOLDEN", "CAT", "SLIDER", "TONGS",
+      "STAR", "CURVE", "TINSEL", "SPATULA",
+      "JELLY", "IRONY", "CHANGEUP", "LADLE"
+    ],
+    "groups": [
+      {
+        "category": "KITCHEN UTENSILS",
+        "difficulty": "yellow",
+        "words": ["WHISK", "LADLE", "SPATULA", "TONGS"]
+      },
+      {
+        "category": "___FISH",
+        "difficulty": "green",
+        "words": ["SWORD", "CAT", "STAR", "JELLY"]
+      },
+      {
+        "category": "BASEBALL PITCHES",
+        "difficulty": "blue",
+        "words": ["CURVE", "SLIDER", "CHANGEUP", "SINKER"]
+      },
+      {
+        "category": "HIDDEN METALS",
+        "difficulty": "purple",
+        "words": ["TINSEL", "IRONY", "GOLDEN", "LEADER"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "words": [
+      "PAWN", "EYE", "TEAL", "SEA",
+      "FIRE", "BISHOP", "AZURE", "WHY",
+      "MEAT", "COBALT", "ROOK", "PEA",
+      "NAVY", "MOTH", "JAY", "KNIGHT"
+    ],
+    "groups": [
+      {
+        "category": "SHADES OF BLUE",
+        "difficulty": "yellow",
+        "words": ["NAVY", "TEAL", "AZURE", "COBALT"]
+      },
+      {
+        "category": "___BALL",
+        "difficulty": "green",
+        "words": ["FIRE", "EYE", "MOTH", "MEAT"]
+      },
+      {
+        "category": "CHESS PIECES",
+        "difficulty": "blue",
+        "words": ["ROOK", "BISHOP", "KNIGHT", "PAWN"]
+      },
+      {
+        "category": "HOMOPHONES OF LETTERS",
+        "difficulty": "purple",
+        "words": ["JAY", "WHY", "SEA", "PEA"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "words": [
+      "TANGO", "LISTEN", "SIGMA", "CREDIT",
+      "HOTEL", "WEIGHT", "ALPHA", "POST",
+      "ECHO", "STONE", "OMEGA", "WILD",
+      "VICTOR", "REPORT", "DELTA", "CANINE"
+    ],
+    "groups": [
+      {
+        "category": "GREEK LETTERS",
+        "difficulty": "yellow",
+        "words": ["ALPHA", "DELTA", "SIGMA", "OMEGA"]
+      },
+      {
+        "category": "NATO ALPHABET",
+        "difficulty": "green",
+        "words": ["ECHO", "TANGO", "HOTEL", "VICTOR"]
+      },
+      {
+        "category": "___CARD",
+        "difficulty": "blue",
+        "words": ["WILD", "REPORT", "CREDIT", "POST"]
+      },
+      {
+        "category": "HIDDEN NUMBERS",
+        "difficulty": "purple",
+        "words": ["CANINE", "WEIGHT", "STONE", "LISTEN"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "words": [
+      "LOCK", "PENGUIN", "ORZO", "TEMPEST",
+      "PIANO", "PENNANT", "HAMLET", "MAP",
+      "RIGATONI", "PENCIL", "OTHELLO", "KEYBOARD",
+      "FUSILLI", "PENDULUM", "MACBETH", "PENNE"
+    ],
+    "groups": [
+      {
+        "category": "PASTA",
+        "difficulty": "yellow",
+        "words": ["PENNE", "ORZO", "FUSILLI", "RIGATONI"]
+      },
+      {
+        "category": "SHAKESPEARE PLAYS",
+        "difficulty": "green",
+        "words": ["HAMLET", "OTHELLO", "MACBETH", "TEMPEST"]
+      },
+      {
+        "category": "THINGS WITH KEYS",
+        "difficulty": "blue",
+        "words": ["PIANO", "MAP", "KEYBOARD", "LOCK"]
+      },
+      {
+        "category": "START WITH \"PEN\"",
+        "difficulty": "purple",
+        "words": ["PENCIL", "PENGUIN", "PENDULUM", "PENNANT"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "words": [
+      "KODIAK", "ICE", "MARS", "VENUS",
+      "SPELL", "TWIX", "POLAR", "JUPITER",
+      "NEWS", "SNICKERS", "GRIZZLY", "NEPTUNE",
+      "RECORD", "KITKAT", "PANDA", "SATURN"
+    ],
+    "groups": [
+      {
+        "category": "PLANETS",
+        "difficulty": "yellow",
+        "words": ["VENUS", "SATURN", "NEPTUNE", "JUPITER"]
+      },
+      {
+        "category": "CANDY BARS",
+        "difficulty": "green",
+        "words": ["MARS", "TWIX", "SNICKERS", "KITKAT"]
+      },
+      {
+        "category": "BEARS",
+        "difficulty": "blue",
+        "words": ["GRIZZLY", "POLAR", "KODIAK", "PANDA"]
+      },
+      {
+        "category": "THINGS YOU CAN BREAK",
+        "difficulty": "purple",
+        "words": ["RECORD", "ICE", "NEWS", "SPELL"]
+      }
+    ]
+  }
+]

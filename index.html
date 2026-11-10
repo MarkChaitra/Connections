@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Connections</title>
+</head>
+<body>
+    
+    <header>
+        <h1 id="title">Connections</h1>
+
+        <div class="help">
+            <p>?</p>
+        </div>
+    </header>
+
+    <main>
+
+        <p class="game-text">Create four groups of four!</p>
+        <section class="game-grid-holder">
+            <div class="message-box"></div>
+            <div class="categories"></div>
+            <div class="game-grid"></div>  
+        </section>
+        <div class="mistakes">
+            <p class="mistake-count">Mistakes Remaining: 4</p>
+        </div>
+        <section class="game-buttons">
+            <p class="game-text" onclick="shuffle()">Shuffle</p>
+            <p class="game-text" onclick="deselectAll()">Deselect All</p>
+            <p class="game-text" onclick="checkGuess()">Submit</p>
+        </section>
+    </main>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

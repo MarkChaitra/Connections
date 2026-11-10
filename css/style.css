@@ -1,0 +1,158 @@
+:root {
+    --border: 1px solid black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    min-height: 100vh; 
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--border);
+    padding: 0.5rem 2rem;
+}
+header #title {
+    font-size: clamp(1.5rem, 2.5vw, 3.0rem);
+}
+
+.help p {
+    font-weight: 800;
+    border-radius: 50%;
+    width: 2rem; height: 2rem;
+    display: flex;align-items: center; justify-content: center;
+    border: 3px solid black;
+}
+
+main {
+    width: 50rem;
+    margin: 8rem auto 0 auto;
+    border: 1px solid red;
+
+    .game-text, .mistake-count {
+        margin: 0.5rem;
+        text-align: center;
+    }
+}
+
+.game-grid-holder{
+    margin: 0 auto;
+    border: var(--border);
+    height: fit-content; width: fit-content;
+    position: relative;
+
+}
+
+.game-grid, .categories {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(5rem, 10rem));
+    gap: 0.25rem;
+}
+
+.game-grid .word-tile, .categories .word-tile{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    display: flex;
+    aspect-ratio: 2/1;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.categories .guessed-category{
+    grid-column: 1 / span 4;
+    aspect-ratio: 8/1;
+}
+
+.game-grid .clicked{
+    background-color: rgb(131, 131, 132);
+    color: rgb(231, 231, 231);
+}
+
+.game-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+
+    p {
+        border: var(--border);
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease;
+}
+.expand {
+    animation: expand 1s ease;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-10%);
+    }
+    50%{
+        transform: translateX(10%);
+    }
+    75%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes expand {
+    0%{
+        transform: scaleX(0.1);
+    }
+
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.message-box{
+    visibility: hidden;
+    position: absolute;
+    top: -5%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content; height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(131, 131, 132);
+    color: rgb(231, 231, 231);
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 99%;
+  }
+
+  .game-grid .word-tile, .categories .word-tile{
+    font-size: 0.75rem;
+    gap: .1rem;
+  }
+
+}
