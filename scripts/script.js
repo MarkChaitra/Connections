@@ -7,9 +7,13 @@ let gameGridCategories = document.querySelector(`.categories`);
 let mistakes = document.querySelector(`.mistake-count`);
 let mistakesRemaining = 4;
 let messageBox = document.querySelector(`.message-box`);
+let deselectButton = document.querySelector(`.deselectAll`);
+let submitButton = document.querySelector(`.checkGuess`);
+let deselectGrey = () => deselectButton.classList.toggle('grey', document.querySelectorAll(`.clicked`).length < 1);
+let submitGrey = () => submitButton.classList.toggle('grey', document.querySelectorAll(`.clicked`).length < 4);
 
 const helpDialog = document.querySelector('.help-dialog');
-document.querySelector('.help').addEventListener('click', () => helpDialog.showModal());
+document.querySelector('.pop-up').addEventListener('click', () => helpDialog.showModal());
 document.querySelector('.close-help').addEventListener('click', () => helpDialog.close());
 
 async function loadGameWordMatches() {
@@ -33,13 +37,19 @@ loadGameWordMatches();
 function loadSinglePuzzleEntry(){
     PuzzleEntry = list[Math.floor(Math.random()*list.length)];
     gameWords = PuzzleEntry.words;
+
+    gameGridCategories.replaceChildren();
     loadTiles();
+    deselectGrey();
+    submitGrey();
 }
 
 function deselectAll(){
     document.querySelectorAll(`.clicked`).forEach(tile =>{
         tile.classList.remove(`clicked`);
     });
+    deselectGrey();
+    submitGrey();
 }
 
 function loadGuessedCategories(group){
@@ -83,6 +93,8 @@ function makeTile(word, clicked){
             p.classList.toggle('clicked'); 
 
         }
+        deselectGrey();
+        submitGrey();
     });
     gameGrid.appendChild(p);
 
