@@ -10,22 +10,22 @@
     "groups": [
       {
         "category": "KITCHEN UTENSILS",
-        "difficulty": "yellow",
+        "difficulty": "rgb(252, 238, 168)",
         "words": ["WHISK", "LADLE", "SPATULA", "TONGS"]
       },
       {
         "category": "___FISH",
-        "difficulty": "green",
+        "difficulty": "rgb(196, 222, 152)",
         "words": ["SWORD", "CAT", "STAR", "JELLY"]
       },
       {
         "category": "BASEBALL PITCHES",
-        "difficulty": "blue",
+        "difficulty": "rgb(197, 214, 247)",
         "words": ["CURVE", "SLIDER", "CHANGEUP", "SINKER"]
       },
       {
         "category": "HIDDEN METALS",
-        "difficulty": "purple",
+        "difficulty": "rgb(222, 190, 232)",
         "words": ["TINSEL", "IRONY", "GOLDEN", "LEADER"]
       }
     ]
@@ -41,22 +41,22 @@
     "groups": [
       {
         "category": "SHADES OF BLUE",
-        "difficulty": "yellow",
+        "difficulty": "rgb(252, 238, 168)",
         "words": ["NAVY", "TEAL", "AZURE", "COBALT"]
       },
       {
         "category": "___BALL",
-        "difficulty": "green",
+        "difficulty": "rgb(196, 222, 152)",
         "words": ["FIRE", "EYE", "MOTH", "MEAT"]
       },
       {
         "category": "CHESS PIECES",
-        "difficulty": "blue",
+        "difficulty": "rgb(197, 214, 247)",
         "words": ["ROOK", "BISHOP", "KNIGHT", "PAWN"]
       },
       {
         "category": "HOMOPHONES OF LETTERS",
-        "difficulty": "purple",
+        "difficulty": "rgb(222, 190, 232)",
         "words": ["JAY", "WHY", "SEA", "PEA"]
       }
     ]
@@ -72,22 +72,22 @@
     "groups": [
       {
         "category": "GREEK LETTERS",
-        "difficulty": "yellow",
+        "difficulty": "rgb(252, 238, 168)",
         "words": ["ALPHA", "DELTA", "SIGMA", "OMEGA"]
       },
       {
         "category": "NATO ALPHABET",
-        "difficulty": "green",
+        "difficulty": "rgb(196, 222, 152)",
         "words": ["ECHO", "TANGO", "HOTEL", "VICTOR"]
       },
       {
         "category": "___CARD",
-        "difficulty": "blue",
+        "difficulty": "rgb(197, 214, 247)",
         "words": ["WILD", "REPORT", "CREDIT", "POST"]
       },
       {
         "category": "HIDDEN NUMBERS",
-        "difficulty": "purple",
+        "difficulty": "rgb(222, 190, 232)",
         "words": ["CANINE", "WEIGHT", "STONE", "LISTEN"]
       }
     ]
@@ -103,22 +103,22 @@
     "groups": [
       {
         "category": "PASTA",
-        "difficulty": "yellow",
+        "difficulty": "rgb(252, 238, 168)",
         "words": ["PENNE", "ORZO", "FUSILLI", "RIGATONI"]
       },
       {
         "category": "SHAKESPEARE PLAYS",
-        "difficulty": "green",
+        "difficulty": "rgb(196, 222, 152)",
         "words": ["HAMLET", "OTHELLO", "MACBETH", "TEMPEST"]
       },
       {
         "category": "THINGS WITH KEYS",
-        "difficulty": "blue",
+        "difficulty": "rgb(197, 214, 247)",
         "words": ["PIANO", "MAP", "KEYBOARD", "LOCK"]
       },
       {
         "category": "START WITH \"PEN\"",
-        "difficulty": "purple",
+        "difficulty": "rgb(222, 190, 232)",
         "words": ["PENCIL", "PENGUIN", "PENDULUM", "PENNANT"]
       }
     ]
@@ -134,23 +134,1108 @@
     "groups": [
       {
         "category": "PLANETS",
-        "difficulty": "yellow",
+        "difficulty": "rgb(252, 238, 168)",
         "words": ["VENUS", "SATURN", "NEPTUNE", "JUPITER"]
       },
       {
         "category": "CANDY BARS",
-        "difficulty": "green",
+        "difficulty": "rgb(196, 222, 152)",
         "words": ["MARS", "TWIX", "SNICKERS", "KITKAT"]
       },
       {
         "category": "BEARS",
-        "difficulty": "blue",
+        "difficulty": "rgb(197, 214, 247)",
         "words": ["GRIZZLY", "POLAR", "KODIAK", "PANDA"]
       },
       {
         "category": "THINGS YOU CAN BREAK",
-        "difficulty": "purple",
+        "difficulty": "rgb(222, 190, 232)",
         "words": ["RECORD", "ICE", "NEWS", "SPELL"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "words": [
+      "HUSKY", "COWARD", "BOGEY", "HOOK",
+      "BATTERY", "UPPERCUT", "PAR", "BIRDIE",
+      "PIGMENT", "JAB", "BEAGLE", "POODLE",
+      "HENCE", "EAGLE", "BOXER", "CROSS"
+    ],
+    "groups": [
+      {
+        "category": "DOG BREEDS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["POODLE", "BEAGLE", "BOXER", "HUSKY"]
+      },
+      {
+        "category": "GOLF SCORES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["PAR", "BIRDIE", "EAGLE", "BOGEY"]
+      },
+      {
+        "category": "BOXING PUNCHES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["JAB", "HOOK", "CROSS", "UPPERCUT"]
+      },
+      {
+        "category": "HIDDEN ANIMALS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["PIGMENT", "BATTERY", "COWARD", "HENCE"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "words": [
+      "DATE", "ROME", "GRAPE", "OSLO",
+      "CRIMSON", "SCARLET", "MAROON", "DOHA",
+      "MANGO", "STRIKE", "LIMA", "HOLIDAY",
+      "LEMON", "PEACH", "RUBY", "DIET"
+    ],
+    "groups": [
+      {
+        "category": "FRUITS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["MANGO", "PEACH", "GRAPE", "LEMON"]
+      },
+      {
+        "category": "SHADES OF RED",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["CRIMSON", "SCARLET", "RUBY", "MAROON"]
+      },
+      {
+        "category": "CAPITAL CITIES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["LIMA", "ROME", "OSLO", "DOHA"]
+      },
+      {
+        "category": "THINGS YOU CAN GO ON",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["DATE", "DIET", "STRIKE", "HOLIDAY"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "words": [
+      "KNOT", "LAKE", "KNEE", "CREEK",
+      "SEA", "KNIFE", "BOMB", "KNIGHT",
+      "NUT", "POND", "BAY", "OBOE",
+      "EGG", "FLUTE", "HARP", "CELLO"
+    ],
+    "groups": [
+      {
+        "category": "MUSICAL INSTRUMENTS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["FLUTE", "CELLO", "OBOE", "HARP"]
+      },
+      {
+        "category": "BODIES OF WATER",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["BAY", "LAKE", "POND", "CREEK"]
+      },
+      {
+        "category": "___SHELL",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["EGG", "SEA", "BOMB", "NUT"]
+      },
+      {
+        "category": "SILENT K",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["KNIFE", "KNEE", "KNOT", "KNIGHT"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "words": [
+      "DEUCE", "BOOT", "CROWBAR", "BOWLER",
+      "SWANKY", "LOAFER", "SANDAL", "PUMP",
+      "BEANIE", "BERET", "LOVE", "DOVETAIL",
+      "WRENCH", "ACE", "FEDORA", "VOLLEY"
+    ],
+    "groups": [
+      {
+        "category": "HATS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["BERET", "FEDORA", "BOWLER", "BEANIE"]
+      },
+      {
+        "category": "FOOTWEAR",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["LOAFER", "SANDAL", "BOOT", "PUMP"]
+      },
+      {
+        "category": "TENNIS TERMS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["ACE", "LOVE", "DEUCE", "VOLLEY"]
+      },
+      {
+        "category": "HIDDEN BIRDS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["CROWBAR", "SWANKY", "DOVETAIL", "WRENCH"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "words": [
+      "ARES", "ROSE", "ZEUS", "SAFFRON",
+      "HERMES", "PAPRIKA", "SUGAR", "NUTMEG",
+      "SALAD", "TULIP", "DUST", "DAISY",
+      "SUPER", "LILY", "CUMIN", "APOLLO"
+    ],
+    "groups": [
+      {
+        "category": "FLOWERS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["ROSE", "TULIP", "DAISY", "LILY"]
+      },
+      {
+        "category": "SPICES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["CUMIN", "PAPRIKA", "SAFFRON", "NUTMEG"]
+      },
+      {
+        "category": "GREEK GODS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["ZEUS", "ARES", "HERMES", "APOLLO"]
+      },
+      {
+        "category": "___ BOWL",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SUPER", "DUST", "SALAD", "SUGAR"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "words": [
+      "FIRMLY", "PALMISTRY", "MEDIUM", "LAYER",
+      "WAFFLE", "CHEESE", "FRUIT", "SMALL",
+      "PINEAPPLE", "CEREAL", "ASHTRAY", "PANCAKE",
+      "LARGE", "OMELET", "CUP", "JUMBO"
+    ],
+    "groups": [
+      {
+        "category": "SIZES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["SMALL", "MEDIUM", "LARGE", "JUMBO"]
+      },
+      {
+        "category": "BREAKFAST FOODS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["WAFFLE", "PANCAKE", "OMELET", "CEREAL"]
+      },
+      {
+        "category": "___CAKE",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["CUP", "CHEESE", "LAYER", "FRUIT"]
+      },
+      {
+        "category": "HIDDEN TREES",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["ASHTRAY", "PINEAPPLE", "FIRMLY", "PALMISTRY"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "words": [
+      "HEARTS", "SHIN", "SALSA", "INDIAN",
+      "ARCTIC", "RUMMY", "ATLANTIC", "TANGO",
+      "MOUTH", "POKER", "SWING", "PACIFIC",
+      "BRIDGE", "LIFE", "WALTZ", "COAST"
+    ],
+    "groups": [
+      {
+        "category": "OCEANS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["ATLANTIC", "PACIFIC", "ARCTIC", "INDIAN"]
+      },
+      {
+        "category": "CARD GAMES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["POKER", "RUMMY", "HEARTS", "BRIDGE"]
+      },
+      {
+        "category": "DANCES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["SALSA", "WALTZ", "TANGO", "SWING"]
+      },
+      {
+        "category": "___GUARD",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["LIFE", "MOUTH", "SHIN", "COAST"]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "words": [
+      "CLUE", "SCISSORS", "LENS", "SNOW",
+      "SLEET", "JEANS", "SORRY", "GLASSES",
+      "PANTS", "PUPIL", "RISK", "RETINA",
+      "HAIL", "RAIN", "IRIS", "MONOPOLY"
+    ],
+    "groups": [
+      {
+        "category": "PARTS OF THE EYE",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["IRIS", "PUPIL", "RETINA", "LENS"]
+      },
+      {
+        "category": "PRECIPITATION",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["SNOW", "HAIL", "SLEET", "RAIN"]
+      },
+      {
+        "category": "BOARD GAMES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["CLUE", "RISK", "SORRY", "MONOPOLY"]
+      },
+      {
+        "category": "ALWAYS PLURAL",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SCISSORS", "PANTS", "GLASSES", "JEANS"]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "words": [
+      "ROBIN", "TOWER", "HEARTH", "SPARROW",
+      "PECAN", "CASHEW", "HANDSOME", "WALNUT",
+      "LEGEND", "MOAT", "ALMOND", "DUNGEON",
+      "DRAWBRIDGE", "RAVEN", "FINCH", "SHINGLE"
+    ],
+    "groups": [
+      {
+        "category": "BIRDS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["ROBIN", "FINCH", "RAVEN", "SPARROW"]
+      },
+      {
+        "category": "CASTLE FEATURES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["MOAT", "TOWER", "DUNGEON", "DRAWBRIDGE"]
+      },
+      {
+        "category": "NUTS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["ALMOND", "CASHEW", "PECAN", "WALNUT"]
+      },
+      {
+        "category": "START WITH A BODY PART",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["HANDSOME", "LEGEND", "HEARTH", "SHINGLE"]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "words": [
+      "LAYUP", "DUNK", "BEAM", "DRIBBLE",
+      "TOO", "VAULT", "RINGS", "ATE",
+      "TENNIS", "REBOUND", "HOCKEY", "WON",
+      "FOR", "GOLF", "RUGBY", "FLOOR"
+    ],
+    "groups": [
+      {
+        "category": "SPORTS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["TENNIS", "GOLF", "RUGBY", "HOCKEY"]
+      },
+      {
+        "category": "GYMNASTICS EVENTS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["VAULT", "BEAM", "RINGS", "FLOOR"]
+      },
+      {
+        "category": "BASKETBALL TERMS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["DUNK", "LAYUP", "REBOUND", "DRIBBLE"]
+      },
+      {
+        "category": "HOMOPHONES OF NUMBERS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["WON", "TOO", "FOR", "ATE"]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "words": [
+      "AMERICANO", "SAND", "COMEDY", "FIRE",
+      "THUNDER", "KITE", "WESTERN", "HORROR",
+      "DRAMA", "BRAIN", "CROSS", "SQUARE",
+      "MOCHA", "OVAL", "ESPRESSO", "LATTE"
+    ],
+    "groups": [
+      {
+        "category": "MOVIE GENRES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["HORROR", "COMEDY", "DRAMA", "WESTERN"]
+      },
+      {
+        "category": "COFFEE ORDERS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["LATTE", "MOCHA", "ESPRESSO", "AMERICANO"]
+      },
+      {
+        "category": "SHAPES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["OVAL", "SQUARE", "KITE", "CROSS"]
+      },
+      {
+        "category": "___STORM",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["BRAIN", "SAND", "FIRE", "THUNDER"]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "words": [
+      "GOUDA", "BRIE", "MILE", "PLIERS",
+      "WROTE", "INCH", "SANG", "FOOT",
+      "FLEW", "DRILL", "HAMMER", "FETA",
+      "YARD", "SWISS", "WRENCH", "SAW"
+    ],
+    "groups": [
+      {
+        "category": "TOOLS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["HAMMER", "WRENCH", "PLIERS", "DRILL"]
+      },
+      {
+        "category": "CHEESES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["BRIE", "GOUDA", "FETA", "SWISS"]
+      },
+      {
+        "category": "UNITS OF LENGTH",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["INCH", "FOOT", "YARD", "MILE"]
+      },
+      {
+        "category": "PAST TENSE VERBS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SAW", "SANG", "FLEW", "WROTE"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "words": [
+      "FORD", "BUSH", "MAZDA", "TAFT",
+      "LEO", "VIRGO", "LIBRA", "AUDI",
+      "GRANT", "ARIES", "PIG", "HONDA",
+      "SHEEP", "TESLA", "COW", "GOAT"
+    ],
+    "groups": [
+      {
+        "category": "FARM ANIMALS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["COW", "PIG", "SHEEP", "GOAT"]
+      },
+      {
+        "category": "ZODIAC SIGNS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["LEO", "ARIES", "LIBRA", "VIRGO"]
+      },
+      {
+        "category": "CAR BRANDS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["HONDA", "TESLA", "AUDI", "MAZDA"]
+      },
+      {
+        "category": "US PRESIDENT SURNAMES",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["FORD", "BUSH", "GRANT", "TAFT"]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "words": [
+      "PIT", "PERIOD", "COMMA", "FERRY",
+      "CARROT", "CELERY", "LEEK", "YACHT",
+      "FULL", "BUS", "WHISTLE", "ONION",
+      "DASH", "COLON", "CANOE", "KAYAK"
+    ],
+    "groups": [
+      {
+        "category": "VEGETABLES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["CARROT", "ONION", "CELERY", "LEEK"]
+      },
+      {
+        "category": "PUNCTUATION",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["COMMA", "COLON", "PERIOD", "DASH"]
+      },
+      {
+        "category": "WATERCRAFT",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["YACHT", "CANOE", "FERRY", "KAYAK"]
+      },
+      {
+        "category": "___ STOP",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["BUS", "PIT", "FULL", "WHISTLE"]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "words": [
+      "FIJI", "EURO", "FRENCH", "MALTA",
+      "DOLLAR", "WAFFLE", "SPANISH", "POUND",
+      "LATIN", "GERMAN", "SWEET", "ITALIAN",
+      "ICELAND", "CURLY", "YEN", "CUBA"
+    ],
+    "groups": [
+      {
+        "category": "LANGUAGES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["GERMAN", "SPANISH", "ITALIAN", "LATIN"]
+      },
+      {
+        "category": "CURRENCIES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["DOLLAR", "POUND", "EURO", "YEN"]
+      },
+      {
+        "category": "ISLAND NATIONS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["CUBA", "MALTA", "FIJI", "ICELAND"]
+      },
+      {
+        "category": "___ FRIES",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["FRENCH", "CURLY", "WAFFLE", "SWEET"]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "words": [
+      "BLUES", "JAZZ", "BASALT", "OPAL",
+      "TISSUE", "SLATE", "SAND", "SOUL",
+      "TOPAZ", "SCRAP", "MARBLE", "RUBY",
+      "GRANITE", "WALL", "JADE", "ROCK"
+    ],
+    "groups": [
+      {
+        "category": "MUSIC GENRES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["JAZZ", "BLUES", "ROCK", "SOUL"]
+      },
+      {
+        "category": "STONES AND ROCKS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["GRANITE", "MARBLE", "SLATE", "BASALT"]
+      },
+      {
+        "category": "GEMSTONES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["RUBY", "OPAL", "TOPAZ", "JADE"]
+      },
+      {
+        "category": "___ PAPER",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SAND", "WALL", "TISSUE", "SCRAP"]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "words": [
+      "LOUNGE", "CAN", "CHEEK", "FLUSH",
+      "NOSE", "STRAIGHT", "BROW", "TRIPS",
+      "KITCHEN", "STUDY", "JOHN", "ATTIC",
+      "HEAD", "CHIN", "LOO", "PAIR"
+    ],
+    "groups": [
+      {
+        "category": "PARTS OF THE FACE",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["NOSE", "CHEEK", "BROW", "CHIN"]
+      },
+      {
+        "category": "POKER HANDS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["FLUSH", "STRAIGHT", "PAIR", "TRIPS"]
+      },
+      {
+        "category": "ROOMS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["KITCHEN", "LOUNGE", "STUDY", "ATTIC"]
+      },
+      {
+        "category": "SLANG FOR TOILET",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["LOO", "JOHN", "CAN", "HEAD"]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "words": [
+      "DWARF", "TROUT", "ROSE", "BLUSH",
+      "EEL", "WITCH", "FRY", "GIANT",
+      "SALMON", "CORAL", "TUNA", "COD",
+      "ROAST", "BAKE", "TROLL", "BOIL"
+    ],
+    "groups": [
+      {
+        "category": "FAIRY TALE CREATURES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["WITCH", "GIANT", "DWARF", "TROLL"]
+      },
+      {
+        "category": "FISH",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["TROUT", "COD", "EEL", "TUNA"]
+      },
+      {
+        "category": "COOKING METHODS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["BOIL", "ROAST", "FRY", "BAKE"]
+      },
+      {
+        "category": "SHADES OF PINK",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SALMON", "CORAL", "BLUSH", "ROSE"]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "words": [
+      "SUNDAY", "CANDLE", "APRIL", "SHALL",
+      "AUGUST", "MAY", "TUESDAY", "MARCH",
+      "FRIDAY", "BALLOON", "MUST", "MONDAY",
+      "MIGHT", "JUNE", "PRESENT", "CAKE"
+    ],
+    "groups": [
+      {
+        "category": "DAYS OF THE WEEK",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["MONDAY", "FRIDAY", "SUNDAY", "TUESDAY"]
+      },
+      {
+        "category": "BIRTHDAY PARTY ITEMS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["CANDLE", "BALLOON", "CAKE", "PRESENT"]
+      },
+      {
+        "category": "MONTHS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["MARCH", "JUNE", "AUGUST", "APRIL"]
+      },
+      {
+        "category": "MODAL VERBS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["MAY", "MIGHT", "MUST", "SHALL"]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "words": [
+      "RULER", "SCIENCE", "PORCUPINE", "ERASER",
+      "MATH", "AMAZON", "NILE", "HISTORY",
+      "HEDGEHOG", "CACTUS", "MARKER", "STAPLER",
+      "DANUBE", "BOOK", "ART", "THAMES"
+    ],
+    "groups": [
+      {
+        "category": "SCHOOL SUBJECTS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["MATH", "ART", "HISTORY", "SCIENCE"]
+      },
+      {
+        "category": "STATIONERY",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["RULER", "ERASER", "STAPLER", "MARKER"]
+      },
+      {
+        "category": "RIVERS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["NILE", "AMAZON", "THAMES", "DANUBE"]
+      },
+      {
+        "category": "THINGS WITH SPINES",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["BOOK", "CACTUS", "HEDGEHOG", "PORCUPINE"]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "words": [
+      "TRIFLE", "SMART", "SOCKS", "SCARF",
+      "STRAP", "PASTEL", "JACKET", "TIRAMISU",
+      "GLOVES", "CHARCOAL", "MOUSSE", "INK",
+      "DIAPER", "LIVE", "SORBET", "OIL"
+    ],
+    "groups": [
+      {
+        "category": "CLOTHING",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["JACKET", "SCARF", "GLOVES", "SOCKS"]
+      },
+      {
+        "category": "ART MATERIALS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["OIL", "CHARCOAL", "PASTEL", "INK"]
+      },
+      {
+        "category": "DESSERTS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["TIRAMISU", "SORBET", "MOUSSE", "TRIFLE"]
+      },
+      {
+        "category": "WORDS THAT SPELL ANOTHER WORD BACKWARDS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["STRAP", "LIVE", "DIAPER", "SMART"]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "words": [
+      "BATH", "DECENT", "CANNES", "LOVELY",
+      "LYON", "YORK", "VENICE", "DERBY",
+      "MILAN", "NICE", "LEEDS", "FINE",
+      "NANTES", "ROME", "PARIS", "TURIN"
+    ],
+    "groups": [
+      {
+        "category": "FRENCH CITIES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["PARIS", "LYON", "CANNES", "NANTES"]
+      },
+      {
+        "category": "ITALIAN CITIES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["ROME", "MILAN", "TURIN", "VENICE"]
+      },
+      {
+        "category": "ENGLISH CITIES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["LEEDS", "YORK", "BATH", "DERBY"]
+      },
+      {
+        "category": "PLEASANT",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["NICE", "FINE", "LOVELY", "DECENT"]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "words": [
+      "FATHER", "PYRAMID", "SPHERE", "BROTHER",
+      "MOTHER", "WILLOW", "CUBE", "HARD",
+      "LEADER", "SISTER", "FRIEND", "CONE",
+      "OAK", "MAPLE", "BIRCH", "SPACE"
+    ],
+    "groups": [
+      {
+        "category": "FAMILY MEMBERS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["MOTHER", "FATHER", "SISTER", "BROTHER"]
+      },
+      {
+        "category": "3D SHAPES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["CUBE", "SPHERE", "CONE", "PYRAMID"]
+      },
+      {
+        "category": "TREES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["OAK", "MAPLE", "BIRCH", "WILLOW"]
+      },
+      {
+        "category": "___SHIP",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["FRIEND", "HARD", "SPACE", "LEADER"]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "words": [
+      "STEEL", "SILVER", "PEWTER", "ZINC",
+      "LANCE", "WORD", "GOLD", "SHIELD",
+      "COPPER", "BRONZE", "IRON", "BRASS",
+      "SWORD", "LOCK", "TIN", "HELMET"
+    ],
+    "groups": [
+      {
+        "category": "METALS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["COPPER", "IRON", "TIN", "ZINC"]
+      },
+      {
+        "category": "KNIGHT GEAR",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["HELMET", "SHIELD", "LANCE", "SWORD"]
+      },
+      {
+        "category": "ALLOYS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["BRONZE", "BRASS", "STEEL", "PEWTER"]
+      },
+      {
+        "category": "___SMITH",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["GOLD", "SILVER", "LOCK", "WORD"]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "words": [
+      "RADIO", "SWEDEN", "REPORT", "INDIGO",
+      "MIRROR", "TABLET", "DENMARK", "DONKEY",
+      "CAMERA", "FASTER", "LAPTOP", "ORANGE",
+      "RED", "NORWAY", "VIOLET", "FINLAND"
+    ],
+    "groups": [
+      {
+        "category": "RAINBOW COLORS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["RED", "ORANGE", "INDIGO", "VIOLET"]
+      },
+      {
+        "category": "SCANDINAVIAN COUNTRIES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["NORWAY", "SWEDEN", "DENMARK", "FINLAND"]
+      },
+      {
+        "category": "ELECTRONICS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["LAPTOP", "TABLET", "CAMERA", "RADIO"]
+      },
+      {
+        "category": "START WITH A SOLFEGE NOTE",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["DONKEY", "REPORT", "MIRROR", "FASTER"]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "words": [
+      "GOATEE", "BEARD", "DRAGON", "ORC",
+      "MULLET", "MOUSTACHE", "BRAID", "ELF",
+      "BUN", "SIDEBURNS", "PIG", "COCK",
+      "PONY", "DOVE", "WIZARD", "BOB"
+    ],
+    "groups": [
+      {
+        "category": "FACIAL HAIR",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["BEARD", "MOUSTACHE", "GOATEE", "SIDEBURNS"]
+      },
+      {
+        "category": "FANTASY CREATURES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["ELF", "ORC", "DRAGON", "WIZARD"]
+      },
+      {
+        "category": "HAIRSTYLES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["BOB", "MULLET", "BUN", "BRAID"]
+      },
+      {
+        "category": "___TAIL",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["PIG", "PONY", "COCK", "DOVE"]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "words": [
+      "OXYGEN", "FLASH", "PRODUCER", "DIRECTOR",
+      "SOFA", "CHAIR", "SPOT", "ACTOR",
+      "DAY", "CARBON", "DESK", "EDITOR",
+      "TABLE", "HELIUM", "ARGON", "NEON"
+    ],
+    "groups": [
+      {
+        "category": "FURNITURE",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["SOFA", "TABLE", "CHAIR", "DESK"]
+      },
+      {
+        "category": "ELEMENTS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["OXYGEN", "HELIUM", "CARBON", "ARGON"]
+      },
+      {
+        "category": "FILM CREW",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["DIRECTOR", "PRODUCER", "EDITOR", "ACTOR"]
+      },
+      {
+        "category": "___LIGHT",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["NEON", "SPOT", "FLASH", "DAY"]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "words": [
+      "WATER", "PROTEIN", "MOJITO", "DAIQUIRI",
+      "MARTINI", "NEGRONI", "MALBEC", "HAND",
+      "MILK", "RIESLING", "JUICE", "CIDER",
+      "CHARDONNAY", "SODA", "MALT", "MERLOT"
+    ],
+    "groups": [
+      {
+        "category": "NON-ALCOHOLIC DRINKS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["WATER", "JUICE", "SODA", "CIDER"]
+      },
+      {
+        "category": "WINES",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["MERLOT", "MALBEC", "RIESLING", "CHARDONNAY"]
+      },
+      {
+        "category": "COCKTAILS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["MOJITO", "MARTINI", "NEGRONI", "DAIQUIRI"]
+      },
+      {
+        "category": "___SHAKE",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["MILK", "HAND", "PROTEIN", "MALT"]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "words": [
+      "WOLF", "DEN", "DUCK", "CUB",
+      "SWARM", "BADGER", "HERD", "KID",
+      "NEST", "FOAL", "BURROW", "HOUND",
+      "FLOCK", "HIVE", "PACK", "CALF"
+    ],
+    "groups": [
+      {
+        "category": "ANIMAL HOMES",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["NEST", "BURROW", "DEN", "HIVE"]
+      },
+      {
+        "category": "ANIMAL GROUPS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["HERD", "FLOCK", "PACK", "SWARM"]
+      },
+      {
+        "category": "YOUNG ANIMALS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["CUB", "KID", "CALF", "FOAL"]
+      },
+      {
+        "category": "ANIMALS AS VERBS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["HOUND", "BADGER", "WOLF", "DUCK"]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "words": [
+      "TURKEY", "PASTRAMI", "WASABI", "SALAMI",
+      "PITA", "FLAT", "RYE", "CORN",
+      "HAM", "SASHIMI", "GINGER", "BAGEL",
+      "SHORT", "NAAN", "NIGIRI", "MAKI"
+    ],
+    "groups": [
+      {
+        "category": "BREADS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["RYE", "NAAN", "PITA", "BAGEL"]
+      },
+      {
+        "category": "DELI MEATS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["HAM", "SALAMI", "TURKEY", "PASTRAMI"]
+      },
+      {
+        "category": "JAPANESE FOOD",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["NIGIRI", "MAKI", "SASHIMI", "WASABI"]
+      },
+      {
+        "category": "___BREAD",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["GINGER", "SHORT", "CORN", "FLAT"]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "words": [
+      "SKATE", "STRATUS", "CUTLASS", "OCTAGON",
+      "SURF", "NIMBUS", "TRIANGLE", "PARROT",
+      "PENTAGON", "TREASURE", "PLANK", "CUMULUS",
+      "DASH", "CIRRUS", "HEXAGON", "CUP"
+    ],
+    "groups": [
+      {
+        "category": "POLYGONS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["TRIANGLE", "PENTAGON", "HEXAGON", "OCTAGON"]
+      },
+      {
+        "category": "PIRATE THINGS",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["PARROT", "TREASURE", "CUTLASS", "PLANK"]
+      },
+      {
+        "category": "CLOUD TYPES",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["CIRRUS", "CUMULUS", "STRATUS", "NIMBUS"]
+      },
+      {
+        "category": "___BOARD",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["CUP", "DASH", "SKATE", "SURF"]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "words": [
+      "WISDOM", "WELLIES", "RAINCOAT", "PONCHO",
+      "MOLAR", "SHARK", "DUVET", "SABER",
+      "SHEET", "INCISOR", "BUCK", "UMBRELLA",
+      "SWEET", "BLANKET", "CANINE", "PILLOW"
+    ],
+    "groups": [
+      {
+        "category": "BEDDING",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["PILLOW", "BLANKET", "DUVET", "SHEET"]
+      },
+      {
+        "category": "RAIN GEAR",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["UMBRELLA", "PONCHO", "WELLIES", "RAINCOAT"]
+      },
+      {
+        "category": "TEETH",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["MOLAR", "INCISOR", "CANINE", "WISDOM"]
+      },
+      {
+        "category": "___ TOOTH",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["SWEET", "BUCK", "SABER", "SHARK"]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "words": [
+      "SCRIPT", "COSTUME", "PICASSO", "WARHOL",
+      "CURTAIN", "SLEEP", "MOON", "STAGE",
+      "CAT", "SLIDE", "SANDPIT", "CAKE",
+      "SWING", "SEESAW", "DALI", "MONET"
+    ],
+    "groups": [
+      {
+        "category": "PLAYGROUND EQUIPMENT",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["SWING", "SLIDE", "SEESAW", "SANDPIT"]
+      },
+      {
+        "category": "THEATRE",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["STAGE", "CURTAIN", "SCRIPT", "COSTUME"]
+      },
+      {
+        "category": "FAMOUS ARTISTS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["MONET", "DALI", "PICASSO", "WARHOL"]
+      },
+      {
+        "category": "___WALK",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["MOON", "CAT", "SLEEP", "CAKE"]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "words": [
+      "MINUTE", "DECADE", "TOSH", "JOLLY",
+      "BUNK", "HOGWASH", "MERRY", "SECOND",
+      "MINI", "BALONEY", "HOUR", "CHEERY",
+      "GLAD", "PETITE", "TINY", "WEE"
+    ],
+    "groups": [
+      {
+        "category": "UNITS OF TIME",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["SECOND", "MINUTE", "HOUR", "DECADE"]
+      },
+      {
+        "category": "SMALL",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["TINY", "MINI", "WEE", "PETITE"]
+      },
+      {
+        "category": "HAPPY",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["GLAD", "JOLLY", "CHEERY", "MERRY"]
+      },
+      {
+        "category": "NONSENSE",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["BUNK", "HOGWASH", "BALONEY", "TOSH"]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "words": [
+      "COVER", "INDEX", "EDITORIAL", "STAMP",
+      "HEADLINE", "MIDDLE", "CHAPTER", "ENVELOPE",
+      "COLUMN", "PREFACE", "LETTER", "PARCEL",
+      "RING", "GLOSSARY", "PINKY", "OBITUARY"
+    ],
+    "groups": [
+      {
+        "category": "FINGERS",
+        "difficulty": "rgb(252, 238, 168)",
+        "words": ["INDEX", "RING", "MIDDLE", "PINKY"]
+      },
+      {
+        "category": "PARTS OF A BOOK",
+        "difficulty": "rgb(196, 222, 152)",
+        "words": ["CHAPTER", "COVER", "PREFACE", "GLOSSARY"]
+      },
+      {
+        "category": "POSTAL ITEMS",
+        "difficulty": "rgb(197, 214, 247)",
+        "words": ["STAMP", "ENVELOPE", "PARCEL", "LETTER"]
+      },
+      {
+        "category": "NEWSPAPER SECTIONS",
+        "difficulty": "rgb(222, 190, 232)",
+        "words": ["HEADLINE", "COLUMN", "EDITORIAL", "OBITUARY"]
       }
     ]
   }
