@@ -16,18 +16,29 @@ html {
 body {
     min-height: 100vh; 
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: var(--border);
     padding: 0.5rem 2rem;
 }
 header #title {
     font-size: clamp(1.5rem, 2.5vw, 3.0rem);
+}
+
+.help{
+    cursor: pointer;
+}
+
+.help-dialog {
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translateX(50%);
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 .help p {
@@ -41,7 +52,6 @@ header #title {
 main {
     width: 50rem;
     margin: 8rem auto 0 auto;
-    border: 1px solid red;
 
     .game-text, .mistake-count {
         margin: 0.5rem;
@@ -51,7 +61,6 @@ main {
 
 .game-grid-holder{
     margin: 0 auto;
-    border: var(--border);
     height: fit-content; width: fit-content;
     position: relative;
 
@@ -80,6 +89,7 @@ main {
 .categories .guessed-category{
     grid-column: 1 / span 4;
     aspect-ratio: 8/1;
+    text-align: center;
 }
 
 .game-grid .clicked{
@@ -105,6 +115,10 @@ main {
 }
 .expand {
     animation: expand 1s ease;
+}
+
+.pop {
+    animation: pop 1s ease;
 }
 
 @keyframes shake {
@@ -135,6 +149,15 @@ main {
     }
 }
 
+@keyframes pop {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
 .message-box{
     visibility: hidden;
     position: absolute;
@@ -161,4 +184,14 @@ main {
     margin-bottom: 0.2rem;
 }
 
+}
+
+footer{
+    font-size: 0.5rem;
+    color: black;
+    text-align: center;
+}
+
+footer a{
+    color: black;
 }
