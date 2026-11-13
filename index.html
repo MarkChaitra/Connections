@@ -13,7 +13,8 @@
         <h1 id="title">Connections</h1>
 
         <div class="help">
-            <p>?</p>
+            <p onclick="loadSinglePuzzleEntry()" class="new-game">New Game</p>
+            <p class="pop-up">?</p>
         </div>
     </header>
 
@@ -42,9 +43,9 @@
             <p class="mistake-count">Mistakes Remaining: 4</p>
         </div>
         <section class="game-buttons">
-            <p class="game-text" onclick="shuffle()">Shuffle</p>
-            <p class="game-text" onclick="deselectAll()">Deselect All</p>
-            <p class="game-text" onclick="checkGuess()">Submit</p>
+            <p class="game-text shuffle" onclick="shuffle()">Shuffle</p>
+            <p class="game-text deselectAll" onclick="deselectAll()">Deselect All</p>
+            <p class="game-text checkGuess" onclick="checkGuess()">Submit</p>
         </section>
     </main>
 
