@@ -2,10 +2,11 @@ let list = [];
 let PuzzleEntry = [];
 let guessedGroups = [];
 let gameWords = [];
+let gameEnd;
 let gameGrid = document.querySelector(`.game-grid`);
 let gameGridCategories = document.querySelector(`.categories`);
 let mistakes = document.querySelector(`.mistake-count`);
-let mistakesRemaining = 4;
+let mistakesRemaining;
 let messageBox = document.querySelector(`.message-box`);
 let deselectButton = document.querySelector(`.deselectAll`);
 let submitButton = document.querySelector(`.checkGuess`);
@@ -39,6 +40,9 @@ function loadSinglePuzzleEntry(){
     gameWords = PuzzleEntry.words;
 
     gameGridCategories.replaceChildren();
+    mistakesRemaining = 4;
+    mistakes.textContent = `Mistakes Remaining: ${mistakesRemaining}`;
+    gameEnd = false;
     loadTiles();
     deselectGrey();
     submitGrey();
@@ -123,56 +127,60 @@ function checkGuess(){
     let tiles = [...document.querySelectorAll('.clicked')]
     .map(element => element.textContent);
 
+    if(gameEnd === false){
 
-    if(tiles.length === 4){
+        if(tiles.length === 4){
 
-        for(gr in PuzzleEntry.groups){
-            let groups = PuzzleEntry.groups[gr];
-            let matches = tiles.filter(tile => groups.words.includes(tile));
-            if(matches.length === 4){
-                guessedGroups.push(groups);
-                gameWords = gameWords.filter(words => !matches.includes(words));
-                loadTiles();
-                deselectAll();
-                loadGuessedCategories(groups);
+            for(gr in PuzzleEntry.groups){
+                let groups = PuzzleEntry.groups[gr];
+                let matches = tiles.filter(tile => groups.words.includes(tile));
+                if(matches.length === 4){
+                    guessedGroups.push(groups);
+                    gameWords = gameWords.filter(words => !matches.includes(words));
+                    loadTiles();
+                    deselectAll();
+                    loadGuessedCategories(groups);
 
-                if(guessedGroups.length === 4){
-                    giveMessage(`Great job`);
+                    if(guessedGroups.length === 4){
+                        giveMessage(`Great job`);
+                    }
+                    return;
                 }
-                return;
+                else if(matches.length === 3){
+                    giveMessage(`One away...`);
+                }
+
             }
-            else if(matches.length === 3){
-                giveMessage(`One away...`);
-            }
+
+            mistakesRemaining--;
+            mistakes.textContent = `Mistakes Remaining: ${mistakesRemaining}`;
+
+            tiles = document.querySelectorAll(`.word-tile`);
+            tiles.forEach(tile => {
+                tile.classList.add(`shake`);
+
+                setTimeout(() => {
+                    tile.classList.remove(`shake`);
+                }, 1000);
+            });
 
         }
 
-        mistakesRemaining--;
-        mistakes.textContent = `Mistakes Remaining: ${mistakesRemaining}`;
+        if(mistakesRemaining === 0){
+            gameEnd = true;
+            deselectAll();
+            giveMessage(`Better luck next time`);
+            PuzzleEntry.groups.forEach((group, index) => {
+                setTimeout(() => {
+                    if(!guessedGroups.includes(group)){
+                        gameWords = gameWords.filter(words => !group.words.includes(words));
+                        loadGuessedCategories(group);
+                        loadTiles();
+                    }
+                }, (index*1500) + 1500);
+            });
+        }
 
-        tiles = document.querySelectorAll(`.word-tile`);
-        tiles.forEach(tile => {
-            tile.classList.add(`shake`);
-
-            setTimeout(() => {
-                tile.classList.remove(`shake`);
-            }, 1000);
-        });
-
-    }
-
-    if(mistakesRemaining === 0){
-        deselectAll();
-        giveMessage(`Better luck next time`);
-        PuzzleEntry.groups.forEach((group, index) => {
-            setTimeout(() => {
-                if(!guessedGroups.includes(group)){
-                    gameWords = gameWords.filter(words => !group.words.includes(words));
-                    loadGuessedCategories(group);
-                    loadTiles();
-                }
-            }, (index*1500) + 1500);
-        });
     }
 
 }
