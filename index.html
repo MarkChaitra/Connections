@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -18,6 +19,19 @@
 
     <main>
 
+        <dialog class="help-dialog">
+            <h2>How to play</h2>
+            <p>Find four groups of four words that share something in common.</p>
+            <ul>
+                <li>Select four words, then press <strong>Submit</strong>.</li>
+                <li>Correct guesses reveal the category.</li>
+                <li>Wrong guesses shake the tiles so you can try again.</li>
+                <li>Click a selected tile again to deselect it.</li>
+                <li>Colours run from easiest (yellow) to hardest (purple).</li>
+            </ul>
+            <button class="close-help">Got it</button>
+        </dialog>
+
         <p class="game-text">Create four groups of four!</p>
         <section class="game-grid-holder">
             <div class="message-box"></div>
@@ -34,6 +48,15 @@
         </section>
     </main>
 
+    <footer>
+        © 2026 Mark Chaitra. All rights reserved.
+        <a href="https://ca.linkedin.com/in/mark-chaitra-694703293" target="_blank">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/MarkChaitra" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+        </a>
+    </footer>
 
     <script src="scripts/script.js"></script>
 </body>
