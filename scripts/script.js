@@ -8,6 +8,10 @@ let mistakes = document.querySelector(`.mistake-count`);
 let mistakesRemaining = 4;
 let messageBox = document.querySelector(`.message-box`);
 
+const helpDialog = document.querySelector('.help-dialog');
+document.querySelector('.help').addEventListener('click', () => helpDialog.showModal());
+document.querySelector('.close-help').addEventListener('click', () => helpDialog.close());
+
 async function loadGameWordMatches() {
     try {
         const response = await fetch('GameWordMatches.json');
@@ -107,7 +111,9 @@ function checkGuess(){
     let tiles = [...document.querySelectorAll('.clicked')]
     .map(element => element.textContent);
 
+
     if(tiles.length === 4){
+
         for(gr in PuzzleEntry.groups){
             let groups = PuzzleEntry.groups[gr];
             let matches = tiles.filter(tile => groups.words.includes(tile));
