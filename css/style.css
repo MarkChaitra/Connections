@@ -30,7 +30,12 @@ header #title {
 }
 
 .help{
+    display: flex;
     cursor: pointer;
+    padding: 1rem;
+    * {
+        margin: 0.25rem;
+    }
 }
 
 .help-dialog {
@@ -41,12 +46,19 @@ header #title {
     text-align: center;
 }
 
-.help p {
+.help .pop-up {
     font-weight: 800;
     border-radius: 50%;
     width: 2rem; height: 2rem;
     display: flex;align-items: center; justify-content: center;
-    border: 3px solid black;
+    border: var(--border);
+}
+.help .new-game {
+    border-radius: 20px;
+    border: var(--border);
+    background-color: white;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0.5rem;
 }
 
 main {
@@ -86,6 +98,7 @@ main {
     font-weight: 800;
 }
 
+
 .categories .guessed-category{
     grid-column: 1 / span 4;
     aspect-ratio: 8/1;
@@ -108,6 +121,11 @@ main {
         border-radius: 20px;
         cursor: pointer;
     }
+}
+
+.game-buttons .grey {
+    border: 1px solid rgb(175, 172, 172);
+    color: rgb(175, 172, 172);
 }
 
 .shake {
