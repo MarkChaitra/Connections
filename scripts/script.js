@@ -10,6 +10,7 @@ let mistakesRemaining;
 let messageBox = document.querySelector(`.message-box`);
 let deselectButton = document.querySelector(`.deselectAll`);
 let submitButton = document.querySelector(`.checkGuess`);
+let messageTimeout;
 let deselectGrey = () => deselectButton.classList.toggle('grey', document.querySelectorAll(`.clicked`).length < 1);
 let submitGrey = () => submitButton.classList.toggle('grey', document.querySelectorAll(`.clicked`).length < 4);
 
@@ -114,10 +115,11 @@ function loadTiles(){
 }
 
 function giveMessage(message){
+    clearTimeout(messageTimeout);
     messageBox.style.visibility = 'visible';
     messageBox.textContent = message;
 
-    setTimeout(() => {
+    messageTimeout = setTimeout(() => {
         messageBox.style.visibility = 'hidden';
     }, 4000);
 }
